@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged/')
 Plug 'vim-airline/vim-airline'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer'}
 Plug 'vim-syntastic/syntastic'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
